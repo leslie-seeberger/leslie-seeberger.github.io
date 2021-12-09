@@ -4,8 +4,7 @@ templateEngineOverride: njk, md
 title: "Home"
 ---
 
-<section id="intro"  class="main_section"
->
+<section id="intro"  class="main_section">
     <article class="content">
         <header>
             <h2>Hi, I'm</h2>
@@ -61,7 +60,7 @@ title: "Home"
         <input id="contact_email" type="email" name="_replyto" required>
     </div>
     <div class="form-input">
-        <label for="contact_message">Name</label>
+        <label for="contact_message">Message</label>
         <textarea id="contact_message" name="message" rows="10" required></textarea>
     </div>
 <button type="submit" class="btn">Send</button>
