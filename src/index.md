@@ -4,6 +4,7 @@ templateEngineOverride: njk, md
 title: "Home"
 ---
 
+<body>
 <section id="intro"  class="main_section">
     <article class="content">
         <header>
@@ -24,21 +25,21 @@ title: "Home"
         <h2 class="sr-only">Ways to get in touch with me</h2>
         <ul>
             <li>
-                <a href="https://twitter.com/leslie_cberger" target="_blank" alt="twitter" rel="noopener">
-                    <span class="sr-only">Follow me on Twitter</span>
-                    <i class="fab fa-twitter"></i>
+                <a href="https://ruby.social/@leslie" target="_blank" alt="mastodon" rel="noopener" class="social-media_link">
+                    <span class="sr-only">Follow me on Mastodon</span>
+                    <i class="fab fa-mastodon social-media_icon"></i>
                 </a>
             </li>
             <li>
-                <a href="https://github.com/leslie-seeberger" target="_blank" alt="github" rel="noopener">
+                <a href="https://github.com/leslie-seeberger" target="_blank" alt="github" rel="noopener" class="social-media_link">
                     <span class="sr-only">Check out my GitHub</span>
-                    <i class="fab fa-github-alt"></i>
+                    <i class="fab fa-github-alt social-media_icon"></i>
                 </a>
             </li>
             <li>
-                <a href="mailto:leslie.c.seeberger@gmail.com" alt="email" rel="noopener">
+                <a href="mailto:leslie.c.seeberger@gmail.com" alt="email" rel="noopener" class="social-media_link">
                     <span class="sr-only">Send me an email</span>
-                    <i class="fas fa-at"></i>
+                    <i class="fas fa-at social social-media_icon"></i>
                 </a>
             </li>
         </ul>
@@ -68,3 +69,4 @@ title: "Home"
 </form>
 </article>
 </section>
+</body>
