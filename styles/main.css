@@ -76,12 +76,24 @@ section#intro > footer {
   font-size: 1.2em;
 }
 
-section#intro footer i {
-  color: var(--medium);
-  transition: color 0.5s ease-out;
+.social-media_link {
+  perspective: 200px;
 }
-section#intro footer i:hover {
+@keyframes spinning-icon {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+.social-media_icon {
+  color: var(--medium);
+  transition: color 1s ease-out;
+}
+.social-media_icon:hover {
   color: var(--primary);
+  animation: spinning-icon 1s linear infinite;
 }
 
 .btn {
@@ -173,6 +185,7 @@ section#contact .form-input label {
     gap: 20px;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
   }
 }
 
