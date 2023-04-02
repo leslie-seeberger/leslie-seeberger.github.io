@@ -1,18 +1,17 @@
 {
   "name": "leslie",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio site for Leslie Seeberger",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve --port=8081",
+    "build": "eleventy"
   },
   "keywords": [],
-  "author": "",
+  "author": "Leslie Seeberger",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^2.0.1",
     "modern-normalize": "^1.1.0"
   }
 }
